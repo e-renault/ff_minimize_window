@@ -1,17 +1,17 @@
 {
 	"manifest_version": 2,
-	"name": "minimizeWindow",
+	"name": "ffMinimize",
 	"version": "1.0",
 	"description": "Minimize Firefox window. That's it.",
 	"icons": {
-		"48": "icons/icon.svg"
+		"48": "icons/icon-light.svg"
 	},
 	"background": {
 		"scripts": ["background.js"]
 	},
 	"browser_action": {
 		"default_icon": "icons/icon.svg",
-		"default_title": "closeWindow",
+		"default_title": "minimize",
 		"theme_icons": [
 			{
 				"light": "icons/icon-light.svg",
